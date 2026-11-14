@@ -1,0 +1,40 @@
+{
+  "name": "shopify-link-checker",
+  "version": "1.0.0",
+  "description": "Checks the links on a Shopify storefront page: broken (404/5xx) links, redirect chains, links that point at a redirect, password-page redirects, http:// and .myshopify.com links, and links with no accessible name.",
+  "license": "MIT",
+  "author": "Ecom Swift LLC",
+  "bin": {
+    "slc": "bin/slc.js"
+  },
+  "main": "lib/check.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "samples"
+  ],
+  "keywords": [
+    "shopify",
+    "links",
+    "broken-links",
+    "redirects",
+    "seo",
+    "accessibility",
+    "audit",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecom-Swift-LLC/shopify-link-checker.git"
+  },
+  "homepage": "https://github.com/Ecom-Swift-LLC/shopify-link-checker",
+  "bugs": {
+    "url": "https://github.com/Ecom-Swift-LLC/shopify-link-checker/issues"
+  }
+}
